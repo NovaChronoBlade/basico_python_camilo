@@ -20,4 +20,4 @@ manzanas = store("Manzanas", "3", "1.50")
 bananas = store("Bananas", "2", "0.80")
 naranjas = store("Naranjas", "4", "2.00")
  
-print("-"*37 + "\n" + recibo + "\n" + articulo + cantidad + precio+ "\n" + "|" + "-"*15 + "|" + "-"*10 + "|" + "-"*8 + "|" + "\n" + manzanas + "\n" + bananas + "\n" + naranjas+ "\n" + "-"*37)
+print("-"*37,  recibo, articulo + cantidad + precio, "|" + "-"*15 + "|" + "-"*10 + "|" + "-"*8 + "|", manzanas, bananas, naranjas, "-"*37, sep="\n")
